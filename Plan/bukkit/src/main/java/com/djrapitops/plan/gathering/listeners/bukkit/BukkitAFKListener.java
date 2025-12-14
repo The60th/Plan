@@ -87,9 +87,9 @@ public class BukkitAFKListener implements Listener {
         }
     }
 
-    @EventHandler(priority = EventPriority.MONITOR)
+    //@EventHandler(priority = EventPriority.MONITOR)
     public void onMove(PlayerMoveEvent event) {
-        event(event);
+        //event(event);
     }
 
     @EventHandler(priority = EventPriority.MONITOR)
